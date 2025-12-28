@@ -3,7 +3,7 @@ import sys
 import datetime
 
 if len(sys.argv) != 5:
-    print("Please enter four arguments: message year month day. \nFor example, to print the message 'hello' for Sept 2, 2025: python commit.py hello 2025 9 2")
+    print("Please enter four arguments: message year month day. \nFor example, to print the message 'Hello' for jan 2, 2025: python commit.py hello 2025 9 2")
     print("For the letters to line up correctly in GitHub, make sure the date is a Sunday")
     print("Currently only the letters a - z are supported")
     sys.exit()
