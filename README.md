@@ -1,7 +1,10 @@
 <h1 align="center">Hey There!, I am Raghavendra Kurapati👋</h1>
 
 # 🤵🏻 About Me:
-A passionate full-stack developer and final-year B.Tech student at IIIT Sri City, focused on building scalable web applications and intelligent data-driven solutions. With hands-on experience in React, Node.js, Docker, Kubernetes, and cloud platforms like AWS and GCP, projects span from a hospital booking & consultation platform to a stock market analysis and forecasting system using time-series models. Always eager to learn and ship real-world projects, with certifications from Google Cloud, AWS, and industry programs that strengthen both development and cloud skills.<br>
+
+🎓 B.Tech Graduate  — IIIT Sri City
+🧠 I build scalable web apps & data-driven projects
+🤝 Open to collaborate — say hi! ✉️ kurapatiraghavendra@gmail.com
 
 
 ## 🔎🌐 Socials:
