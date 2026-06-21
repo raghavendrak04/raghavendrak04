@@ -6,6 +6,8 @@
 🧠 I build scalable web apps & data-driven projects
 🤝 Open to collaborate — say hi! ✉️ kurapatiraghavendra@gmail.com
 
+https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamE0ejU5MDd2ZmV2ZTdreWVlY3dhN3ZnYmFxbHk5bjR3dDBkMmxubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif
+
 
 ## 🔎🌐Let Connect me 👇🏻:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/raghavendra_kurapati) 
