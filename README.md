@@ -4,7 +4,7 @@
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamE0ejU5MDd2ZmV2ZTdreWVlY3dhN3ZnYmFxbHk5bjR3dDBkMmxubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coding GIF" width="300" />
 </div>
 
-<h3 align="center">AI Developer | Full-Stack Engineer | Passionate Tech Enthusiast</h3>
+<h3 align="center">Software Developer | AI Engineer | Full-Stack Developer</h3>
 
 <p align="center">
   I am passionate about technology and building things! I specialize in building scalable web apps, data-driven projects, and intelligent agent workflows.
@@ -59,14 +59,9 @@
 - **Agriconnect Diagnostics**: An AI-powered crop disease diagnosis system using MobileNetV2 and EfficientNet-B4. Achieved 95%+ accuracy and integrated Google Gemini API with FastAPI to provide context-rich agricultural insights.
 - **NextFlow**: A scalable full-stack productivity & workflow management platform enabling task tracking and real-time collaboration with a highly optimized responsive UI.
 - **QuickTask**: A fast and optimized task management web app using React, Node.js, Express, and MongoDB, handling over 1,000 concurrent operations efficiently.
+- **Intelligent RAG System**: Developed a context-aware Retrieval-Augmented Generation (RAG) pipeline using LangChain, FastAPI, and Vector Databases to provide accurate semantic search and generative responses over custom datasets.
 
----
 
-### 📊 GitHub Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raghavendrak04&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=raghavendrak04&theme=tokyonight" alt="GitHub Streak" />
-</p>
 
 ### 💭✍️ Random Dev Quote:
 <p align="center">
