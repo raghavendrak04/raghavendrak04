@@ -827,6 +827,41 @@
   }
 
   // ══════════════════════════════════════════════════════════
+  // LIVE CLOCK
+  // ══════════════════════════════════════════════════════════
+  function updateLiveClock() {
+    const timeEl = document.getElementById('clockTime');
+    const ampmEl = document.getElementById('clockAmPm');
+    const dateEl = document.getElementById('clockDate');
+
+    if (!timeEl || !ampmEl || !dateEl) return;
+
+    const now = new Date();
+    
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    const ampm = hours >= 12 ? 'pm' : 'am';
+    
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    
+    // Add leading zeros
+    hours = hours < 10 ? '0' + hours : hours;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const month = monthNames[now.getMonth()];
+    const day = now.getDate();
+    
+    timeEl.textContent = `${hours}:${minutes}`;
+    ampmEl.textContent = ampm;
+    dateEl.textContent = `${month} ${day}`;
+  }
+
+  updateLiveClock();
+  setInterval(updateLiveClock, 1000);
+
+  // ══════════════════════════════════════════════════════════
   // NAVBAR SCROLL EFFECT
   // ══════════════════════════════════════════════════════════
   const navbar = document.getElementById('navbar');

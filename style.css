@@ -280,6 +280,58 @@ ul { list-style: none; }
   transform: scaleX(1);
 }
 
+/* ── Live Clock ──────────────────────────────────────────── */
+.live-clock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  padding: 6px 14px;
+  border-radius: 50px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+  cursor: default;
+}
+
+.live-clock:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.clock-time {
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.clock-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+  gap: 2px;
+}
+
+.clock-ampm {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.clock-date {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .live-clock {
+    display: none;
+  }
+}
+
 /* ── Mobile Menu & Hamburger ─────────────────────────────── */
 .hamburger {
   display: none;
