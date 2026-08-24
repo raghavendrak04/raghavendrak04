@@ -7,7 +7,7 @@
 <h3 align="center">Software Developer | AI Engineer | Full-Stack Developer</h3>
 
 <p align="center">
-  🚀 <strong><a href="https://raghavendrak04.github.io/raghavendrak04/">Explore my Interactive 3D Portfolio</a></strong> 🚀
+  🚀 <strong><a href="https://raghavendrak04.github.io/raghavendrak04/">Explore my Interactive  Portfolio</a></strong> 🚀
 </p>
 
 <p align="center">
