@@ -14,6 +14,10 @@
   I am passionate about technology and building things! I specialize in building scalable web apps, data-driven projects, and intelligent agent workflows.
 </p>
 
+<p align="center">
+  🚀 <strong><a href="https://raghavendrak04.github.io/raghavendrak04/">Explore my Interactive 3D Portfolio</a></strong> 🚀
+</p>
+
 ---
 
 ### 🤵🏻 About Me:

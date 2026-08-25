@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Raghavendra Kurapati — Full Stack & GenAI Engineer. React, FastAPI, LangChain, RAG, Docker. IIIT Sri City '26. Open for Freelance AI Contracts & Full-Time SDE Roles.">
+  <meta name="keywords"
+    content="Raghavendra Kurapati, Full Stack Developer, GenAI Engineer, React, FastAPI, LangChain, RAG, Docker, IIIT Sri City, SDE, AI ML Engineer, Deccan AI, Snorkel AI, Handshake">
+  <meta name="author" content="Raghavendra Kurapati">
+  <title>Raghavendra Kurapati — profile page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋🏼</text></svg>">
+</head>
+
+<body class="unified-mode">
+
+  <!-- Toast Notification Container -->
+  <div id="toastNotification" class="toast-notification"></div>
+
+  <!-- Three.js Canvas -->
+  <canvas id="three-canvas"></canvas>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+     
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="live-clock">
+        <div class="clock-time" id="clockTime">--:--</div>
+        <div class="clock-details">
+          <span class="clock-ampm" id="clockAmPm">--</span>
+          <span class="clock-date" id="clockDate">--</span>
+        </div>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#experience" class="mobile-link">Work</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero section" id="hero">
+    <div class="hero-content">
+      <div class="hero-status-pill reveal">
+        <span class="pulse-dot"></span>
+        <span>Full Stack & GenAI Engineer | React, FastAPI, LangChain, RAG, Docker | IIIT Sri City ’26 | Actively
+          Seeking SDE & AI/ML Roles</span>
+      </div>
+      <p class="hero-greeting reveal">// Hello World, I'm</p>
+      <h1 class="hero-name reveal">Raghavendra Kurapati</h1>
+      <div class="hero-title-wrapper reveal">
+        <span class="hero-title-static">I'm a</span>
+        <span class="hero-title-dynamic" id="typingText"></span><span class="typing-cursor"></span>
+      </div>
+
+      <!-- Unified Master Tagline -->
+      <p class="hero-tagline reveal" id="heroTagline">
+        Architecting intelligent systems — RAG pipelines, fine-tuned foundation models, and scalable full-stack
+        platforms. Proven contributor to <strong>Deccan AI</strong>, <strong>Snorkel AI</strong>, and
+        <strong>Saarthi.ai</strong>. Actively open for <strong>Freelance AI Contracts</strong> & <strong>Full-Time SDE /
+          AI Roles</strong>.
+      </p>
+
+      <!-- Unified CTA Group -->
+      <div class="hero-cta-group reveal">
+
+        <a href="#projects" class="btn btn-secondary">🚀 Explore Projects</a>
+        <a href="#contact" class="btn btn-outline">✉ Get in Touch</a>
+      </div>
+
+      <div class="hero-social reveal">
+        <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener">⬡ GitHub</a>
+        <a href="https://www.linkedin.com/in/kurapati-raghavendra-engineer/" target="_blank" rel="noopener">◆
+          LinkedIn</a>
+        <a href="#contact">✉ Contact</a>
+
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-avatar-wrapper reveal-left">
+          <div class="about-avatar-glow"></div>
+          <img src="avatar.jpg" alt="Raghavendra Kurapati — Full Stack & GenAI Engineer" class="about-avatar-img">
+          <div class="avatar-badge">
+
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="reveal">About <span class="accent">Me</span></h2>
+          <p class="reveal about-lead">
+            Full-Stack & GenAI Engineer specializing in scalable architectures, intelligent RAG systems, and
+            high-performance applications.
+          </p>
+          <p class="reveal">
+            I turn complex algorithmic concepts into robust production code. My core expertise spans <strong>React.js,
+              FastAPI, Node.js, LangChain, and Docker</strong>, alongside hands-on AI model evaluation and fine-tuning
+            with <strong>Snorkel AI</strong> and <strong>Deccan AI</strong>.
+          </p>
+          <p class="reveal">
+            Driven by first principles and LeetCode DSA problem-solving rigor. Currently pursuing B.Tech at
+            <strong>IIIT Sri City ('26)</strong> and actively open to Full-Time SDE / AI Roles & Freelance Contracts.
+          </p>
+          <div class="about-info-chips reveal">
+            <span class="info-chip"><span class="chip-icon">🎓</span> IIIT Sri City '26</span>
+            <span class="info-chip"><span class="chip-icon">🤖</span> AI & LLM Systems</span>
+            <span class="info-chip"><span class="chip-icon">⚡</span> Full-Stack Engineer</span>
+            <span class="info-chip"><span class="chip-icon">💼</span> Open to SDE & AI Roles</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Education Card -->
+      <div class="about-education-card reveal" style="margin-top: 36px;">
+        <div class="edu-card-header">
+          <div class="edu-card-icon">🎓</div>
+          <div class="edu-card-main">
+
+            <h3 class="edu-degree">Bachelor of Technology — Electronics & Communication Engineering</h3>
+            <div class="edu-institution">Indian Institute of Information Technology, Sri City (IIIT Sri City)</div>
+          </div>
+          <div class="edu-meta">
+            <span class="edu-year">2022 – 2026</span>
+            <span class="edu-location">📍 Sri City, AP, India</span>
+          </div>
+        </div>
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SKILLS ("My Tech Stack") ══════════════ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">My Tech <span class="accent">Stack</span></h2>
+        <p class="section-subtitle reveal">Production-proven technologies across the full engineering spectrum</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Languages -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">⌘ Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="devicon-python-plain colored"></i> Python</span>
+            <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span class="skill-tag"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+            <span class="skill-tag"><i class="devicon-java-plain colored"></i> Java 17</span>
+            <span class="skill-tag"><i class="devicon-cplusplus-plain colored"></i> C/C++</span>
+            <span class="skill-tag"><i class="devicon-azuresqldatabase-plain colored"></i> SQL</span>
+          </div>
+        </div>
+
+        <!-- 2. AI & LLM Engineering -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">🤖 AI & LLM Engineering</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+              LangChain
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#a855f7">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              LlamaIndex
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="12" cy="18" r="3"></circle>
+                <line x1="8.5" y1="7.5" x2="15.5" y2="7.5"></line>
+                <line x1="7.5" y1="8.5" x2="10.5" y2="15.5"></line>
+                <line x1="16.5" y1="8.5" x2="13.5" y2="15.5"></line>
+              </svg>
+              LangGraph
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+              RAG Pipelines
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+              Prompt Engineering
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#fbbf24">
+                <path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"></path>
+              </svg>
+              Gemini API
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              Agentic Workflows
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#ff006e" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                </path>
+              </svg>
+              Fine-tuning
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#fbbf24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zm0 9l-8-4v6l8 4 8-4v-6l-8 4zm0 8l-8-4v2l8 4 8-4v-2l-8 4z"></path>
+              </svg>
+              Transformers
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+              Vector Databases
+            </span>
+          </div>
+        </div>
+
+        <!-- 3. Frontend Development -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">⚡ Frontend Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="devicon-react-original colored"></i> React.js</span>
+            <span class="skill-tag"><i class="devicon-nextjs-plain" style="color:#ffffff;"></i> Next.js</span>
+            <span class="skill-tag"><i class="devicon-vitejs-plain colored"></i> Vite</span>
+            <span class="skill-tag"><i class="devicon-redux-original colored"></i> Redux / Zustand</span>
+            <span class="skill-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              Responsive UI
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              SPA Architecture
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="12" cy="18" r="3"></circle>
+                <line x1="6" y1="9" x2="6" y2="15"></line>
+                <line x1="9" y1="6" x2="15" y2="6"></line>
+              </svg>
+              REST API Integration
+            </span>
+          </div>
+        </div>
+
+        <!-- 4. Backend Development -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">🔧 Backend Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+            <span class="skill-tag"><i class="devicon-express-original" style="color:#e2e8f0;"></i>
+              Express.js</span>
+            <span class="skill-tag"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+            <span class="skill-tag"><i class="devicon-spring-original colored"></i> Spring Boot 3.5</span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+              RESTful APIs
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              JWT Auth
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              RBAC
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <rect x="2" y="2" width="8" height="8" rx="2"></rect>
+                <rect x="14" y="2" width="8" height="8" rx="2"></rect>
+                <rect x="2" y="14" width="8" height="8" rx="2"></rect>
+                <rect x="14" y="14" width="8" height="8" rx="2"></rect>
+              </svg>
+              Microservices
+            </span>
+          </div>
+        </div>
+
+        <!-- 5. ML & Deep Learning -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">🧠 ML & Deep Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
+            <span class="skill-tag"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#f97316">
+                <path
+                  d="M1.75 0h20.5C23.22 0 24 .78 24 1.75v20.5c0 .97-.78 1.75-1.75 1.75H1.75C.78 24 0 23.22 0 22.25V1.75C0 .78.78 0 1.75 0zM12 5.5l-6.5 3.75v7.5L12 20.5l6.5-3.75v-7.5L12 5.5z">
+                </path>
+              </svg>
+              TF-Lite
+            </span>
+            <span class="skill-tag"><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+              Deep RL (PPO/DQN)
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Mechanistic Interpretability
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+              Matplotlib / Seaborn
+            </span>
+          </div>
+        </div>
+
+        <!-- 6. Databases & Cloud -->
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">🗄️ Databases & Cloud</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#ff006e">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v12M6 12h12" stroke="#fff" stroke-width="2"></path>
+              </svg>
+              ChromaDB
+            </span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#10b981">
+                <path d="M12 2L4 7v10l8 5 8-5V7l-8-5z"></path>
+              </svg>
+              Pinecone
+            </span>
+            <span class="skill-tag"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+            <span class="skill-tag"><i class="devicon-redis-plain colored"></i> Redis</span>
+            <span class="skill-tag"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+            <span class="skill-tag">
+              <svg class="skill-icon-svg" viewBox="0 0 24 24" fill="#a3e635">
+                <path
+                  d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V14a1 1 0 0 0-2 0v2.93A8 8 0 0 1 4.07 11H7a1 1 0 0 0 0-2H4.07A8 8 0 0 1 11 4.07V7a1 1 0 0 0 2 0V4.07A8 8 0 0 1 19.93 11H17a1 1 0 0 0 0 2h2.93A8 8 0 0 1 13 16.93z">
+                </path>
+              </svg>
+              ArangoDB
+            </span>
+            <span class="skill-tag"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</span>
+            <span class="skill-tag"><i class="devicon-googlecloud-plain colored"></i> GCP</span>
+            <span class="skill-tag"><i class="devicon-docker-plain colored"></i> Docker</span>
+            <span class="skill-tag"><i class="devicon-githubactions-plain colored"></i> GitHub Actions CI/CD</span>
+            <span class="skill-tag"><span style="font-size:1.1rem;line-height:1;">🤗</span> Hugging Face
+              Spaces</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ══════════════ WORK EXPERIENCE & INDUSTRY ══════════════ -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Work & <span class="accent">Experience</span></h2>
+        <p class="section-subtitle reveal">Industry internships, freelance roles, and full-time technical readiness
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- 1. Saarthi.ai -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">
+            <span class="timeline-dot-inner"></span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Frontend Developer Intern</div>
+                <div class="timeline-company">Saarthi.ai</div>
+              </div>
+              <div class="timeline-meta">Jan 2026 – May 2026 · Sri City, AP</div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Collaborated in planning and designing Saarthi.ai, an AI-powered academic assistant platform aimed at
+                improving student learning experiences and academic support workflows.</li>
+              <li>Designed intuitive UI/UX wireframes and frontend user flows for student dashboards, AI chat
+                interfaces, and academic support modules using modern responsive design principles.</li>
+              <li>Developed responsive frontend pages and reusable UI components using React.js, improving
+                accessibility, navigation consistency, and overall user experience across the platform.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2. Deccan AI · Snorkel AI · Handshake -->
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">AI Engineer & Model Benchmarking (Freelance)</div>
+                <div class="timeline-company">Deccan AI &middot; Snorkel AI &middot; Handshake</div>
+              </div>
+              <div class="timeline-meta">2024 – Present · Remote</div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Engineered custom AI inference and evaluation pipelines for model building, benchmarking, and error
+                analysis.</li>
+              <li>Built programmatic data labeling and multimodal QA workflows ensuring high-fidelity dataset
+                distributions.</li>
+              <li>Developed full-stack AI prototypes and API integrations for automated candidate matching and
+                recruitment pipelines.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ENGINEERING SERVICES ══════════════ -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">What I <span class="accent">Build & Offer</span></h2>
+        <p class="section-subtitle reveal">End-to-end engineering services from architecture to deployment</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-icon">🤖</span>
+          <h3 class="service-title">AI & LLM Engineering</h3>
+          <p class="service-desc">Production RAG systems, agentic workflows, and LLM integrations that deliver
+            accurate,
+            grounded responses.</p>
+          <ul class="service-features">
+            <li>RAG Pipelines with Citation Validation</li>
+            <li>Multi-Agent Agentic Workflows (LangGraph)</li>
+            <li>Gemini / OpenAI API Integrations</li>
+            <li>Vector Database Design (ChromaDB, Pinecone)</li>
+            <li>Fine-tuning & Prompt Engineering</li>
+          </ul>
+          <a href="#contact" class="btn-service">Inquire Service →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <span class="service-icon">⚡</span>
+          <h3 class="service-title">Full-Stack Development</h3>
+          <p class="service-desc">Scalable web applications with modern frontend frameworks and hardened backend
+            APIs.
+          </p>
+          <ul class="service-features">
+            <li>React / Next.js Frontend Applications</li>
+            <li>Node.js / Express / FastAPI Backends</li>
+            <li>Spring Boot Microservices (Java 17)</li>
+            <li>JWT Auth, RBAC, Rate-Limiting</li>
+            <li>Docker Containerization & CI/CD</li>
+          </ul>
+          <a href="#contact" class="btn-service">Inquire Service →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <span class="service-icon">🧠</span>
+          <h3 class="service-title">ML & Data Solutions</h3>
+          <p class="service-desc">Deep learning models, spatial analytics, and mechanistic interpretability
+            research.
+          </p>
+          <ul class="service-features">
+            <li>PyTorch / TensorFlow Model Development</li>
+            <li>Deep Reinforcement Learning (PPO/DQN)</li>
+            <li>Computer Vision (MobileNetV2, EfficientNet)</li>
+            <li>Spatial & Geospatial Analytics</li>
+            <li>Model Interpretability & Auditing</li>
+          </ul>
+          <a href="#contact" class="btn-service">Inquire Service →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Featured <span class="accent">Projects</span></h2>
+        <p class="section-subtitle reveal">Production-grade systems across AI, full-stack, and deep learning</p>
+      </div>
+
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI & RAG</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+        <button class="filter-btn" data-filter="dl">Deep Learning</button>
+        <button class="filter-btn" data-filter="systems">Systems</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- 1. Defence RAG System -->
+        <div class="project-card reveal" data-category="ai">
+          <span class="project-category-badge badge-ai">🤖 AI & RAG</span>
+          <h3 class="project-title">Defence RAG System</h3>
+          <p class="project-desc">Production-ready RAG system for defence policy reasoning combining semantic
+            retrieval
+            with Gemini 2.5 Flash for grounded responses with page-level citations. Features hallucination
+            detection,
+            MRR evaluation, and retrieval precision metrics.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Gemini API</span>
+            <span class="tech-tag">ChromaDB</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">Streamlit</span>
+          </div>
+          <a href="https://github.com/raghavendrak04/Rec20_34" target="_blank" rel="noopener" class="project-link">View
+            on GitHub →</a>
+        </div>
+
+        <!-- 2. Mechanistic Interpretability -->
+        <div class="project-card reveal" data-category="dl">
+          <span class="project-category-badge badge-dl">🧠 Deep Learning</span>
+          <h3 class="project-title">Mechanistic Interpretability</h3>
+          <p class="project-desc">Auditing engine detecting mathematically poisoned attention heads in distilgpt2.
+            Uses
+            PyTorch forward hooks to intercept Query/Key attention matrices and isolate backdoor trigger tokens.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">HuggingFace</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Transformers</span>
+          </div>
+          <a href="https://github.com/raghavendrak04/dynamo-4e75244-machine-learning-and-ai" target="_blank"
+            rel="noopener" class="project-link">View on GitHub →</a>
+        </div>
+
+        <!-- 3. PrimeTrade.ai -->
+        <div class="project-card reveal" data-category="fullstack">
+          <span class="project-category-badge badge-fullstack">⚡ Full-Stack</span>
+          <h3 class="project-title">PrimeTrade.ai</h3>
+          <p class="project-desc">Scalable crypto trading platform with Express REST API, JWT auth, RBAC guards
+            (User/Admin), rate-limiting, Helmet security headers, and React dashboard with real-time trading
+            interface.
+          </p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Redis</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">React</span>
+          </div>
+          <a href="https://github.com/raghavendrak04/primetrade-backend-assignment" target="_blank" rel="noopener"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+        <!-- 4. Autonomous Doc Generator -->
+        <div class="project-card reveal" data-category="ai">
+          <span class="project-category-badge badge-ai">🤖 AI & RAG</span>
+          <h3 class="project-title">Autonomous Doc Generator</h3>
+          <p class="project-desc">Multi-phase autonomous agent framework (Plan-Execute-Reflect-Generate) producing
+            formatted .docx files using LangGraph state machines and Pydantic validation.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">Pydantic</span>
+            <span class="tech-tag">python-docx</span>
+          </div>
+          <a href="https://github.com/raghavendrak04/autonomous-ai-document-generator" target="_blank" rel="noopener"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+        <!-- 5. URL Shortener -->
+        <div class="project-card reveal" data-category="systems">
+          <span class="project-category-badge badge-systems">⚙️ Systems</span>
+          <h3 class="project-title">URL Shortener Service</h3>
+          <p class="project-desc">High-concurrency URL shortener with Base62 bijective encoding off database
+            sequence
+            IDs guaranteeing zero collisions. Redis read-through caching for instant redirects.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Java 17</span>
+            <span class="tech-tag">Spring Boot 3.5</span>
+            <span class="tech-tag">Redis</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Docker</span>
+          </div>
+          <a href="https://github.com/raghavendrak04/URL_Shortener" target="_blank" rel="noopener"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+        <!-- 6. Paperbench Jigsaw-R1 -->
+        <div class="project-card reveal" data-category="dl">
+          <span class="project-category-badge badge-dl">🧠 Deep Learning</span>
+          <h3 class="project-title">Paperbench Jigsaw-R1</h3>
+          <p class="project-desc">Deep Reinforcement Learning solver fine-tuning reasoning models for spatial jigsaw
+            puzzles using GRPO/PPO policy gradient optimization with custom reward functions.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">Deep RL</span>
+            <span class="tech-tag">GRPO/PPO</span>
+            <span class="tech-tag">Ray</span>
+          </div>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">View on
+            GitHub
+            →</a>
+        </div>
+
+        <!-- 7. Saarthi.ai -->
+        <div class="project-card reveal" data-category="fullstack">
+          <span class="project-category-badge badge-fullstack">⚡ Full-Stack</span>
+          <h3 class="project-title">Saarthi.ai Platform</h3>
+          <p class="project-desc">AI-powered academic assistant platform with React TypeScript frontend, Express
+            gateway, and domain-specific prompt engineering for technical AI tutors.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">Tailwind</span>
+          </div>
+          <a href="https://raghavendrak04.github.io/Saarthi_-Documentation/" target="_blank" rel="noopener"
+            class="project-link">View Docs →</a>
+        </div>
+
+        <!-- 8. Autonomous Job Agent -->
+        <div class="project-card reveal" data-category="ai">
+          <span class="project-category-badge badge-ai">🤖 AI & RAG</span>
+          <h3 class="project-title">Autonomous Job Agent</h3>
+          <p class="project-desc">End-to-end autonomous pipeline: scrapes job boards via Playwright, generates
+            ATS-tailored resumes, auto-fills applications, and syncs status to Google Sheets.</p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Playwright</span>
+            <span class="tech-tag">Gemini API</span>
+            <span class="tech-tag">Sheets API</span>
+            <span class="tech-tag">OAuth</span>
+          </div>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">View on
+            GitHub
+            →</a>
+        </div>
+      </div>
+
+      <!-- Secondary Projects -->
+      <div class="secondary-projects-title reveal">// Other Projects</div>
+      <div class="projects-grid-secondary" id="secondaryGrid">
+        <div class="project-card-mini reveal" data-category="fullstack">
+          <h4 class="project-title">Daksha LMS</h4>
+          <p class="project-desc">MERN stack library management with dual-role portals, fine calculation, and
+            inventory
+            tracking.</p>
+          <a href="https://github.com/raghavendrak04/DakshaLMS_MERN" target="_blank" rel="noopener"
+            class="project-link">GitHub →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="systems">
+          <h4 class="project-title">Compiler Simulator</h4>
+          <p class="project-desc">Interactive lexer, recursive parser, and AST visualizer for compiler frontend
+            education.</p>
+          <a href="https://github.com/guruakhilbusam-png/co-compiler-simulation" target="_blank" rel="noopener"
+            class="project-link">GitHub →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="ai">
+          <h4 class="project-title">Redrob AI Ranker</h4>
+          <p class="project-desc">Semantic resume scorer using transformer embeddings and cosine similarity
+            matrices.
+          </p>
+          <a href="https://github.com/raghavendrak04/redrob-ai-ranker" target="_blank" rel="noopener"
+            class="project-link">GitHub →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="dl">
+          <h4 class="project-title">DRL Routing Engine</h4>
+          <p class="project-desc">Deep Q-Learning adaptive packet routing for wireless ad-hoc networks.</p>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">GitHub
+            →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="ai">
+          <h4 class="project-title">CardGuard AI</h4>
+          <p class="project-desc">Local zero-trust credit card fraud prevention via Ollama MCP bridge.</p>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">GitHub
+            →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="fullstack">
+          <h4 class="project-title">AgriConnect</h4>
+          <p class="project-desc">AI crop disease diagnosis with MobileNetV2 achieving 95%+ accuracy, Gemini
+            integration.</p>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">GitHub
+            →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="systems">
+          <h4 class="project-title">Gemini Web2API</h4>
+          <p class="project-desc">Reverse-proxy converting Gemini web UI to OpenAI-compatible REST API endpoint.</p>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">GitHub
+            →</a>
+        </div>
+        <div class="project-card-mini reveal" data-category="fullstack">
+          <h4 class="project-title">Spring Boot CRUD</h4>
+          <p class="project-desc">Production Spring Boot API with JPA, MySQL, Docker Compose, and React frontend.
+          </p>
+          <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="project-link">GitHub
+            →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CODING PROFILES & BADGES ══════════════ -->
+  <section class="coding-profiles section" id="coding-profiles">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Competitive <span class="accent">Profiles</span></h2>
+        <p class="section-subtitle reveal">Problem-solving track record and developer credentials</p>
+      </div>
+
+      <div class="profiles-grid">
+        <!-- LeetCode -->
+        <div class="profile-card reveal">
+          <div class="profile-header">
+            <span class="profile-icon">⊡</span>
+            <h3 class="profile-platform">LeetCode</h3>
+            <a href="https://leetcode.com/u/raghavendrak04/" target="_blank" rel="noopener" class="profile-link">↗
+              View
+              Profile</a>
+          </div>
+          <div class="profile-stats">
+            <div class="profile-stat">
+              <span class="profile-stat-number" data-target="113">0</span>
+              <span class="profile-stat-suffix">+</span>
+              <span class="profile-stat-label">Problems Solved</span>
+            </div>
+          </div>
+          <div class="profile-badges">
+            <span class="profile-badge badge-lc-easy">Easy ✓</span>
+            <span class="profile-badge badge-lc-medium">Medium ✓</span>
+            <span class="profile-badge badge-lc-hard">Hard ✓</span>
+          </div>
+          <div class="profile-skills-tested">
+            <span class="profile-skill-item">Arrays & Hashing</span>
+            <span class="profile-skill-item">Two Pointers</span>
+            <span class="profile-skill-item">Binary Search</span>
+            <span class="profile-skill-item">Sliding Window</span>
+            <span class="profile-skill-item">Trees & Graphs</span>
+            <span class="profile-skill-item">Dynamic Programming</span>
+            <span class="profile-skill-item">Stack & Queue</span>
+            <span class="profile-skill-item">Linked Lists</span>
+          </div>
+        </div>
+
+        <!-- Google Cloud -->
+        <div class="profile-card reveal">
+          <div class="profile-header">
+            <span class="profile-icon">☁️</span>
+            <h3 class="profile-platform">Google Cloud</h3>
+            <a href="https://www.skills.google/profile/badges?credential_type=skill_badge" target="_blank"
+              rel="noopener" class="profile-link">↗ View 61 Badges</a>
+          </div>
+          <div class="profile-stats">
+            <div class="profile-stat">
+              <span class="profile-stat-number" data-target="61">0</span>
+              <span class="profile-stat-suffix">+</span>
+              <span class="profile-stat-label">Skill Badges & Completions</span>
+            </div>
+            <div class="profile-stat" style="margin-left:auto;">
+              <span class="profile-stat-number" data-target="60575">0</span>
+              <span class="profile-stat-label">Arcade Points</span>
+            </div>
+          </div>
+          <div
+            style="font-size:0.85rem;color:var(--accent-amber);font-weight:600;margin-bottom:14px;font-family:var(--font-mono);">
+            🏆 Arcade Champion & Snowdown (Dec 2024)
+          </div>
+          <div class="profile-badges">
+            <span class="profile-badge badge-gcp">Manage Kubernetes in GCP</span>
+            <span class="profile-badge badge-gcp">BigQuery & Firebase (L3)</span>
+            <span class="profile-badge badge-gcp">Arcade Snowdown</span>
+            <span class="profile-badge badge-gcp">Cloud Functions & GKE</span>
+          </div>
+          <div class="profile-skills-tested">
+            <span class="profile-skill-item">Kubernetes & Hybrid Cloud</span>
+            <span class="profile-skill-item">BigQuery Data Engineering</span>
+            <span class="profile-skill-item">ML on GCP</span>
+            <span class="profile-skill-item">Cloud DevOps</span>
+          </div>
+        </div>
+
+        <!-- AWS -->
+        <div class="profile-card reveal">
+          <div class="profile-header">
+            <span class="profile-icon">🔶</span>
+            <h3 class="profile-platform">AWS Certified</h3>
+            <a href="https://www.linkedin.com/in/kurapati-raghavendra-engineer/" target="_blank" rel="noopener"
+              class="profile-link">↗ View Certificate</a>
+          </div>
+          <div class="profile-stats">
+            <div class="profile-stat">
+              <span class="profile-stat-label"
+                style="font-size:1.05rem;color:var(--accent-emerald);font-weight:700;">Solutions Architect
+                Associate</span>
+            </div>
+            <div class="profile-stat" style="margin-left:auto;">
+              <span class="profile-verified">✓ EdYoda 2024</span>
+            </div>
+          </div>
+          <div class="profile-badges">
+            <span class="profile-badge badge-aws">EC2 & Lambda</span>
+            <span class="profile-badge badge-aws">S3 & DynamoDB</span>
+            <span class="profile-badge badge-aws">VPC & IAM</span>
+            <span class="profile-badge badge-aws">CloudFormation</span>
+          </div>
+          <div class="profile-skills-tested">
+            <span class="profile-skill-item">High Availability Architecture</span>
+            <span class="profile-skill-item">Cost Optimization</span>
+            <span class="profile-skill-item">Security & IAM</span>
+            <span class="profile-skill-item">Multi-Tier Scalability</span>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="profile-card reveal">
+          <div class="profile-header">
+            <span class="profile-icon">⬡</span>
+            <h3 class="profile-platform">GitHub</h3>
+            <a href="https://github.com/raghavendrak04" target="_blank" rel="noopener" class="profile-link">↗ View
+              Profile</a>
+          </div>
+          <div class="profile-stats">
+            <div class="profile-stat">
+              <span class="profile-stat-number" data-target="16">0</span>
+              <span class="profile-stat-suffix">+</span>
+              <span class="profile-stat-label">Repositories</span>
+            </div>
+          </div>
+          <div class="profile-badges">
+            <span class="profile-badge badge-gh">Open Source</span>
+            <span class="profile-badge badge-gh">CI/CD Pipelines</span>
+            <span class="profile-badge badge-gh">Docker Configs</span>
+          </div>
+          <div class="profile-skills-tested">
+            <span class="profile-skill-item">Version Control</span>
+            <span class="profile-skill-item">Code Review</span>
+            <span class="profile-skill-item">Documentation</span>
+            <span class="profile-skill-item">Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ACHIEVEMENTS & CERTIFICATIONS FLOW MAP ══════════════ -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Achievements & <span class="accent">Mastery Roadmap</span></h2>
+        <p class="section-subtitle reveal">Verified technical certifications, competitive problem solving, and
+          engineering milestones</p>
+      </div>
+
+      <!-- Interactive Flow Map View -->
+      <div class="flow-map-container reveal">
+        <div class="flow-map-header">
+          <span class="flow-badge">⚡ Interactive Progression Tree</span>
+          <span class="flow-legend">● Verified Engineering Milestones</span>
+        </div>
+
+        <div class="flow-map-track">
+          <!-- Node 1: Algorithmic Mastery -->
+          <div class="flow-node">
+            <div class="flow-node-marker">
+              <span class="flow-marker-icon">💻</span>
+              <span class="flow-marker-pulse"></span>
+            </div>
+            <div class="flow-node-content">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <div class="flow-node-phase"> DSA</div>
+                <a href="https://leetcode.com/u/raghavendrak04/" target="_blank" rel="noopener" class="profile-link"
+                  style="font-size:0.75rem;">↗ View LeetCode</a>
+              </div>
+              <h3 class="flow-node-title">LeetCode DSA Problems Solved</h3>
+              <p class="flow-node-desc">Mastered core algorithms: Arrays, Two Pointers, Sliding Window, Dynamic
+                Programming, Trees & Graphs.</p>
+              <div class="flow-node-tags">
+                <span class="flow-tag tag-emerald">Easy &bull; Medium &bull; Hard</span>
+                <span class="flow-tag">LeetCode </span>
+                <span class="flow-tag">C++ &middot; Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-connector">
+            <div class="flow-line"></div>
+            <span class="flow-arrow">▼</span>
+          </div>
+
+          <!-- Node 2: Cloud Infrastructure -->
+          <div class="flow-node">
+            <div class="flow-node-marker">
+              <span class="flow-marker-icon">🔶</span>
+              <span class="flow-marker-pulse"></span>
+            </div>
+            <div class="flow-node-content">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <div class="flow-node-phase">CLOUD &middot; ARCHITECTURE</div>
+                <a href="https://www.linkedin.com/in/kurapati-raghavendra-engineer/" target="_blank" rel="noopener"
+                  class="profile-link" style="font-size:0.75rem;">↗ View Certificate</a>
+              </div>
+              <h3 class="flow-node-title">AWS Solutions Architect Associate</h3>
+              <p class="flow-node-desc">Certified by EdYoda (2024). Multi-tier architecture, IAM security, VPC,
+                Lambda &
+                high availability system design.</p>
+              <div class="flow-node-tags">
+                <span class="flow-tag tag-amber">EdYoda 2024</span>
+                <span class="flow-tag">EC2 &middot; S3 &middot; IAM &middot; DynamoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-connector">
+            <div class="flow-line"></div>
+            <span class="flow-arrow">▼</span>
+          </div>
+
+          <!-- Node 3: GCP Champion -->
+          <div class="flow-node">
+            <div class="flow-node-marker">
+              <span class="flow-marker-icon">🏆</span>
+              <span class="flow-marker-pulse"></span>
+            </div>
+            <div class="flow-node-content">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <div class="flow-node-phase">DATA &middot; CLOUD EXCELLENCE</div>
+                <a href="https://www.skills.google/profile/badges?credential_type=skill_badge" target="_blank"
+                  rel="noopener" class="profile-link" style="font-size:0.75rem;">↗ View 61 Google Badges</a>
+              </div>
+              <h3 class="flow-node-title">Google Cloud Arcade Champion & 61+ Badges</h3>
+              <p class="flow-node-desc">60,575 Arcade Points & Arcade Snowdown Champion. Proven expertise in
+                Kubernetes
+                (GKE), BigQuery, and Cloud Functions.</p>
+              <div class="flow-node-tags">
+                <span class="flow-tag tag-gold">61+ Google Badges</span>
+                <span class="flow-tag tag-amber">60,575 Points</span>
+                <span class="flow-tag">BigQuery &middot; GKE &middot; Cloud Run</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-connector">
+            <div class="flow-line"></div>
+            <span class="flow-arrow">▼</span>
+          </div>
+
+          <!-- Node 4: Green Professional -->
+          <div class="flow-node">
+            <div class="flow-node-marker">
+              <span class="flow-marker-icon">🌿</span>
+              <span class="flow-marker-pulse"></span>
+            </div>
+            <div class="flow-node-content">
+              <div style="display:flex;justify-content:space-between;align-items:center;">
+                <div class="flow-node-phase">STANDARDS &middot; SUSTAINABILITY</div>
+                <span class="profile-verified" style="font-size:0.75rem;">✓ INCO Verified</span>
+              </div>
+              <h3 class="flow-node-title">Green Certified Professional</h3>
+              <p class="flow-node-desc">Certified by INCO (2024). Sustainable engineering methodologies and
+                energy-efficient systems design.</p>
+              <div class="flow-node-tags">
+                <span class="flow-tag tag-emerald">INCO 2024</span>
+                <span class="flow-tag">Green Computing &middot; Standards</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-connector">
+            <div class="flow-line"></div>
+            <span class="flow-arrow">▼</span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT (2-Tap Secure Reveal & Redirect) ══════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Let's <span class="accent">Connect</span></h2>
+        <p class="section-subtitle reveal">Protected contact channels. <strong>Tap once to reveal & copy</strong>
+          &middot; <strong>Tap again to open / redirect</strong>.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- 1. Email (2-Tap) -->
+        <div class="contact-card interactive-contact-card reveal" data-type="email"
+          data-value="kurapatiraghavendra@gmail.com"
+          data-url="mailto:kurapatiraghavendra@gmail.com?subject=Collaboration%20%26%20Project%20Inquiry"
+          onclick="handleContactCardClick(this)" role="button" tabindex="0">
+          <div class="contact-card-badge">🔒 Tap to Reveal</div>
+          <div class="contact-icon">✉</div>
+          <div class="contact-label">Direct Email</div>
+          <div class="contact-value card-masked-val">•••••••••••••••••••••@gmail.com</div>
+          <div class="contact-subtext">Tap 1: Reveal & Copy &middot; Tap 2: Send Email</div>
+        </div>
+
+        <!-- 2. LinkedIn (2-Tap) -->
+        <div class="contact-card interactive-contact-card reveal" data-type="linkedin"
+          data-value="kurapati-raghavendra-engineer"
+          data-url="https://www.linkedin.com/in/kurapati-raghavendra-engineer/" onclick="handleContactCardClick(this)"
+          role="button" tabindex="0">
+          <div class="contact-card-badge">🔒 Tap to Reveal</div>
+          <div class="contact-icon">◆</div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value card-masked-val">in/••••••••••••••••••••••••••</div>
+          <div class="contact-subtext">Tap 1: Reveal & Copy &middot; Tap 2: Visit Profile</div>
+        </div>
+
+        <!-- 3. GitHub (2-Tap) -->
+        <div class="contact-card interactive-contact-card reveal" data-type="github" data-value="raghavendrak04"
+          data-url="https://github.com/raghavendrak04" onclick="handleContactCardClick(this)" role="button"
+          tabindex="0">
+          <div class="contact-card-badge">🔒 Tap to Reveal</div>
+          <div class="contact-icon">⬡</div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value card-masked-val">github.com/•••••••••••••••</div>
+          <div class="contact-subtext">Tap 1: Reveal & Copy &middot; Tap 2: View Repos</div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="marquee-footer">
+      <div class="marquee-container">
+        <div class="marquee-track">
+          <span>Thanks for visiting my portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my
+            portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my
+            portfolio! | </span>
+          <span>Thanks for visiting my portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my
+            portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my portfolio! | Thanks for visiting my
+            portfolio! | </span>
+        </div>
+      </div>
+      <div class="marquee-container">
+        <div class="marquee-track marquee-reverse">
+          <span>Code & Crafted with 💛 by Raghavendra Kurapati | Code & Crafted with 💛 by Raghavendra Kurapati | Code &
+            Crafted with 💛 by Raghavendra Kurapati | Code & Crafted with 💛 by Raghavendra Kurapati | </span>
+          <span>Code & Crafted with 💛 by Raghavendra Kurapati | Code & Crafted with 💛 by Raghavendra Kurapati | Code &
+            Crafted with 💛 by Raghavendra Kurapati | Code & Crafted with 💛 by Raghavendra Kurapati | </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
